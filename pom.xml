@@ -13,7 +13,6 @@
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
-
   <!--spring boot-->
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -44,6 +43,12 @@
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-config</artifactId>
+    </dependency>
+
+    <!--eureka-->
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-eureka</artifactId>
     </dependency>
 
     <dependency>

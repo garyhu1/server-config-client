@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @decripetion :
  * @since : 2018/11/19
  **/
-@RefreshScope
+@RefreshScope // 会在配置更改时得到特殊的处理
 @RestController
 public class ConfigClientController {
 
